@@ -32,16 +32,6 @@ body {
   padding: 2rem;
   color: #fff;
 }
-}
-
-.about-img {
-  width: 500px;
-  padding: 30px;
-}
-
-.about {
-  padding: 30px;
-}
 
 .services {
   padding: 30px;
@@ -49,6 +39,7 @@ body {
   display: inline;
   align-content: center;
   text-align: center;
+  height: 300px;
 }
 
 .contact {
