@@ -7,6 +7,33 @@ body {
   overflow-x: hidden;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background: url(./assets/banner.jpg);
+  position: relative;
+  height: 500px;
+}
+
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5rem;
+  background-color: #0000005c;
+  width: 500px;
+  padding: 2rem;
+  color: #fff;
+}
+}
+
 .about-img {
   width: 500px;
   padding: 30px;
