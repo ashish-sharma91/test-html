@@ -1,0 +1,38 @@
+body {
+  background-image: url("backimg.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-size: 100% 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.about-img {
+  width: 500px;
+  padding: 30px;
+}
+
+.about {
+  padding: 30px;
+}
+
+.services {
+  padding: 30px;
+  display: flex;
+  display: inline;
+  align-content: center;
+  text-align: center;
+}
+
+.contact {
+  padding: 30px;
+}
+
+.services img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  display: inline;
+  align-content: center;
+}
